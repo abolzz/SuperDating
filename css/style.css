@@ -1,0 +1,100 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: center;
+}
+
+article {
+    width: 20%;
+    margin: 2%;
+    padding: 10px;
+    display: inline-grid;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 0;
+    text-align: center;
+}
+
+article img {
+    width: 100%;
+}
+
+strong {
+    color: #9bff9b;
+}
+
+::-webkit-input-placeholder {
+    color: #c7c6c6;
+}
+
+input[type="submit"] {
+    border: none;
+    background-color: #587d6c;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: #61ba82;
+}
+
+.notice.success {
+    color: #ddf2dd;
+    background-color: #66b266;
+}
+
+.notice {
+    padding: 1.5em 1em;
+    text-align: left;
+    font-size: 1.3rem;
+    margin: 0 0 1em 0;
+}
+
+.notice a {
+    display: block;
+    padding: 1em 0 0 0;
+    color: inherit;
+}
+
+.notice a:hover, .edit:hover {
+    color: #030303;
+}
+
+a.edit.notice:hover {
+    background-color: #224443;
+}
+
+.edit-form {
+    width: 40%;
+    padding: 0 30%;
+}
+
+.edit-form input, .edit-form select {
+    width: 100%;
+    margin: 2.5% auto;
+    padding: 5px;
+}
+
+.comment-form textarea {
+    width: 90%;
+    height: 50px;
+}
+
+.comment-by {
+    color: red;
+    font-style: italic;
+}
+
+.profiles {
+    width: 100vw;
+}
+
+/* Hides the input */
+
+.hidden {
+    visibility: hidden;
+    width: 0px;
+}
